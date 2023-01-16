@@ -1,4 +1,6 @@
 new Swiper('.slider', {
+  // direction: "vertical",
+  // freeMode: true,
   speed: 2400,
   mousewheel: {
     enabled: true,
@@ -6,5 +8,4 @@ new Swiper('.slider', {
   },
   spaceBetween: 18,
   parallax: true,
-  // freeMode: true,
 })
